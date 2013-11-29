@@ -11,7 +11,7 @@
  * (Minified)   - https://raw.github.com/georgekosmidis/jquery-hashhandle/master/jquery.hashhandle.min.js
  *
  * ****Methods****
- * convertURL: Mapping simulation, from _escaped_fragment_ format to #! format, actually redirects
+ * convertURL: Mapping simulation, from _escaped_fragment_ format to #! format, actually redirects to hide ugly URL
  *             e.g.
  *             <head>...<script>$.fn.HashHandle('convertURL');</script>...</head>
  *             Redirects from http://.../?param1=value1&_escaped_fragment_=k1=v1&k2=v2 to http://.../?param1=value1#!k1=v1&k2=v2

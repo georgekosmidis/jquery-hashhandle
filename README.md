@@ -52,7 +52,7 @@ convertURL : Mapping simulation, from _escaped_fragment_ format to #! format, ac
  <head>
   ...
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="https://raw.github.com/georgekosmidis/jquery-hashchange/master/jquery.hashchange.min.js"></script>
+  <script src="https://raw.github.com/georgekosmidis/jquery-hashchange/master/jquery.hashhandle.min.js"></script>
   <script src="https://raw.github.com/georgekosmidis/jquery-hashchange/master/jquery.hashchange.min.js"></script>
   <script>$.fn.HashHandle('convertURL');</script>
   <script>$(document).ready(function () { 
