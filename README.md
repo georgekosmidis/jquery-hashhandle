@@ -46,14 +46,14 @@ convertURL : Mapping simulation, from _escaped_fragment_ format to #! format, ac
 
 ##Example
  The following example also uses the jquery hash-change plugin found here: http://benalman.com/projects/jquery-hashchange-plugin/
-
+ UPDATE: Ben stopped the updates of hashchange plugin, a forked version with a jQuery bug corrected is https://github.com/georgekosmidis/jquery-hashchange
 ```html
 <html>
  <head>
   ...
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="http://github.com/cowboy/jquery-hashchange/raw/master/jquery.ba-hashchange.min.js"></script>
-  <script src="https://github.com/georgekosmidis/hash-handle/raw/master/...."></script>
+  <script src="https://raw.github.com/georgekosmidis/jquery-hashchange/master/jquery.hashchange.min.js"></script>
+  <script src="https://raw.github.com/georgekosmidis/jquery-hashchange/master/jquery.hashchange.min.js"></script>
   <script>$.fn.HashHandle('convertURL');</script>
   <script>$(document).ready(function () { 
            $(".HashHandle").HashHandle('add');

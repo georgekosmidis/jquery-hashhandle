@@ -1,7 +1,15 @@
 /*!
- * jQuery hash handle v1 2013-11-28
- * https://github.com/georgekosmidis/hash-handle
+ * jQuery hashhandle, v1, 2013-11-28
+ * https://github.com/georgekosmidis/jquery-hashhandle
  * 
+ * Copyright (c) 2013 George Kosmidis
+ * Under GPL license
+ * http://www.georgekosmidis.com
+ * 
+ * GitHub       - https://github.com/georgekosmidis/jquery-hashhandle
+ * Source       - https://raw.github.com/georgekosmidis/jquery-hashhandle/master/jquery.hashhandle.js
+ * (Minified)   - https://raw.github.com/georgekosmidis/jquery-hashhandle/master/jquery.hashhandle.min.js
+ *
  * ****Methods****
  * convertURL: Mapping simulation, from _escaped_fragment_ format to #! format, actually redirects
  *             e.g.
