@@ -1,7 +1,7 @@
 jQuery Hash Handle
 ===========
-Handling URL fragment to enable search engines crawling (google basically). 
-Based on https://developers.google.com/webmasters/ajax-crawling/
+Handling URL fragment for ajax web apps. <br />
+Based on https://developers.google.com/webmasters/ajax-crawling/ (Search Engines AJAX crawling scheme)
 
 
 ##Methods
