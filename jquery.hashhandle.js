@@ -97,7 +97,7 @@
                 if (a[0].lastIndexOf("?") == a[0].length - 1)
                     a[0] = a[0].substr(0, a[0].length - 1);
 
-                window.location = a[0] + "#!" + a[1];
+                window.location = a[0] + "#!" + decodeURIComponent( a[1] );
             }
 
         },
